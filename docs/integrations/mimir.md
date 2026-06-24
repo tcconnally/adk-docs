@@ -19,6 +19,12 @@ SQLite database, it requires **zero cloud dependencies**, and everything runs
 locally. Memory is encrypted at rest with AES-256-GCM, and search combines FTS5
 keyword matching with dense vector retrieval.
 
+What sets Mimir apart is the *combination*: **hybrid search (BM25/FTS5 keyword +
+dense vector) that runs entirely on-device — embeddings included — with
+AES-256-GCM encryption at rest and no external API keys or cloud calls.** That
+makes it a fit for private, air-gapped, or compliance-sensitive deployments where
+a hosted memory service or a cloud embedding API isn't an option.
+
 ## Use cases
 
 - **Persistent agent memory across restarts**: Sessions survive process

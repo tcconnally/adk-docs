@@ -11,7 +11,7 @@ catalog_tags: ["data"]
   <span class="lst-supported">Supported in ADK</span><span class="lst-python">Python</span>
 </div>
 
-The [`adk-perseus-vault-memory`](https://github.com/Perseus-Computing-LLC/adk-mimir-memory)
+The [`adk-perseus-vault-memory`](https://github.com/Perseus-Computing-LLC/adk-perseus-vault-memory)
 integration connects your ADK agent to
 [Perseus Vault](https://github.com/Perseus-Computing-LLC/perseus-vault), a
 persistent, cross-session memory backend. Backed by a single Rust binary with an
@@ -144,7 +144,7 @@ session = await runner.session_service.create_session(
 
 ## Resources
 
-- [adk-perseus-vault-memory on GitHub](https://github.com/Perseus-Computing-LLC/adk-mimir-memory)
+- [adk-perseus-vault-memory on GitHub](https://github.com/Perseus-Computing-LLC/adk-perseus-vault-memory)
 - [adk-perseus-vault-memory on PyPI](https://pypi.org/project/adk-perseus-vault-memory/)
 - [Perseus Vault (backing service)](https://github.com/Perseus-Computing-LLC/perseus-vault)
 - [Perseus Context integration](/integrations/perseus/)
